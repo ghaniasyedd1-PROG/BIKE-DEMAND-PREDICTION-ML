@@ -1,0 +1,74 @@
+{
+  "regression": [
+    {
+      "model": "decision_tree",
+      "R2": 0.8092473238002704,
+      "MAE": 59.74434496479951,
+      "RMSE": 95.03596452519628,
+      "best_params": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 3
+      }
+    },
+    {
+      "model": "svr",
+      "R2": 0.6985385979170324,
+      "MAE": 76.26713731566277,
+      "RMSE": 119.47265755366226,
+      "best_params": {
+        "model__C": 30,
+        "model__epsilon": 0.1,
+        "model__gamma": "scale"
+      }
+    },
+    {
+      "model": "random_forest",
+      "R2": 0.8691574837580702,
+      "MAE": 50.81968641000261,
+      "RMSE": 78.70949222336044,
+      "best_params": {
+        "model__max_depth": 20,
+        "model__min_samples_leaf": 1,
+        "model__n_estimators": 120
+      }
+    }
+  ],
+  "classification": [
+    {
+      "model": "decision_tree",
+      "accuracy": 0.8434343434343434,
+      "macro_f1": 0.8064136094698684,
+      "best_params": {
+        "model__max_depth": 10,
+        "model__min_samples_leaf": 3
+      }
+    },
+    {
+      "model": "naive_bayes",
+      "accuracy": 0.8581267217630854,
+      "macro_f1": 0.8408961376149047,
+      "best_params": {
+        "default": "scikit-learn estimator defaults"
+      }
+    },
+    {
+      "model": "svm",
+      "accuracy": 0.8659320477502296,
+      "macro_f1": 0.8366359952751248,
+      "best_params": {
+        "model__C": 10,
+        "model__gamma": "scale"
+      }
+    },
+    {
+      "model": "random_forest",
+      "accuracy": 0.8099173553719008,
+      "macro_f1": 0.8032302786350405,
+      "best_params": {
+        "model__max_depth": 20,
+        "model__min_samples_leaf": 1,
+        "model__n_estimators": 120
+      }
+    }
+  ]
+}

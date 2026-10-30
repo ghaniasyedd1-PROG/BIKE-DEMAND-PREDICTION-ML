@@ -1,2 +1,3 @@
-# BIKE-DEMAND-PREDICTION-ML
-Machine Learning project for bike rental demand prediction using Regression and Classification models with a FastAPI-powered web application.
+# Notebook scratchpad
+
+Use this folder for temporary exploratory notebooks and experiments. Keep the main assignment notebooks (`01_eda.ipynb` and `02_modeling.ipynb`) in the parent `notebooks/` folder.
